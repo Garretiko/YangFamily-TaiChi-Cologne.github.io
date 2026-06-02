@@ -4,5 +4,12 @@
   },
   "emmet.includeLanguages": {
     "nunjucks": "html"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[nunjucks]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
