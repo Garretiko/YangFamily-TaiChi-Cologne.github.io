@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy({ "bilder": "bilder" });
+  eleventyConfig.addPassthroughCopy({ "fonts": "fonts" });
 
   // News collection sorted by date descending
   eleventyConfig.addCollection("news", function (collectionApi) {
